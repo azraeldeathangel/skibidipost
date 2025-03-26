@@ -1,5 +1,4 @@
 #include <windows.h>
-#include <wininet.h>
 #include <stdio.h>
 #include <wininet.h>
 
