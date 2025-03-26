@@ -39,7 +39,7 @@ int main() {
     HINTERNET hRequest = HttpOpenRequestW(
         hConnect, 
         L"POST",                      // HTTP method (POST request)
-        L"/api/webhooks/1354552015124037935/fNh0zz10zIkWPlE0mG-6kOBtfdS7_uhqwfXrFylLmQr5YIf3BYNGSpOgKb6LuY7sWU8E", // Webhook URL path
+        L"/api/webhooks/<WEBHOOK-TOKEN>", // Webhook URL path
         NULL,                         // No custom HTTP version
         NULL,                         // No referrer
         NULL,                         // No accepted types (use default)
